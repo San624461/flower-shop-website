@@ -101,7 +101,7 @@ body {
 }
 
 .banner-flower-img {
-    width: 88%;
+    width: 79%;
     padding-top: 14px;
     /* height: 500px; */
 
@@ -342,7 +342,7 @@ body {
 /* approach styles starts here */
 
 .approach {
-    width: 64%;
+    width: 65.5%;
     height: 250px;
 
     border-radius: 8px;
@@ -394,7 +394,7 @@ body {
     align-items: center;
     gap: 20px;
     justify-content: space-around;
-    width: 60%;
+    width: 70%;
 
 }
 
@@ -419,21 +419,31 @@ body {
 
 /* instagram styles starts here */
 .instagram {
-    width: 70%;
+    
     height: 250px;
     margin-top: 128px;
     margin-bottom: 128px;
-    padding: 0px 240px;
+    
+ 
+   
 
 }
 
 .instagram-container {
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 13px;
+    padding: 0px 100px 0px 50px;
+   
+  
 
-    width: 70%;
+  
+
+    
+
+    
 
 }
 
@@ -441,7 +451,7 @@ body {
 
 /* subscribe styles starts here */
 .subscribe {
-    width: 85%;
+    width: 88%;
     height: 420px;
     margin-top: 400px;
     background-image: url("./got-deals.png");
@@ -514,6 +524,6 @@ footer {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    padding-left: 540px;
+    padding-left: 450px;
 
 }
