@@ -1,0 +1,519 @@
+/* universal styles */
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* for all three buttons */
+.button-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 40px;
+    font-family: Lato;
+
+
+
+}
+
+
+.button-primary:hover {
+    color: black;
+}
+
+/* I used this common title for hot deals and instagram */
+.common-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 0px;
+
+
+}
+
+/* I used this common description for hot deals and instagram */
+.common-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 40px 32px 35px;
+
+}
+
+/* for 'OFF' and 'flower' >span */
+.text-primary {
+    color: #E55473;
+
+
+}
+
+
+
+
+
+/* banner styles starts here */
+.banner {
+    height: 92vh;
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.banner-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.banner-flower-img {
+    width: 88%;
+    padding-top: 14px;
+    /* height: 500px; */
+
+}
+
+.banner-texts {
+    padding-left: 100px;
+    padding-top: 70px;
+
+}
+
+
+
+/* featured flower starts here */
+
+.featured-flower {
+    width: 89%;
+    margin: auto;
+    margin-top: 128px;
+}
+
+.flower1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 430px;
+    height: 500px;
+
+
+}
+
+
+.flower1-img {
+
+    padding: 71px 70px 0px 70px;
+
+}
+
+
+
+.flower1-text-container {
+    text-align: center;
+}
+
+.flower2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+    width: 430px;
+    height: 500px;
+
+
+}
+
+.flower2-img {
+
+    padding: 66px 50px 66px 50px;
+
+}
+
+.flower3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 430px;
+    height: 500px;
+
+
+}
+
+.flower3-img {
+
+    padding: 30px 70px 0px 60px;
+
+}
+
+.flower1-text {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 60px;
+    padding-left: 110px;
+
+}
+
+.flower2-text {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-left: 130px;
+
+
+
+
+}
+
+.flower3-text {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 60px;
+    padding-left: 130px;
+
+}
+
+
+
+.featured-flower-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.parent-img {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 350px;
+
+
+}
+
+.child-button {
+    border: 0px;
+    color: black;
+    background-color: rgb(140, 176, 243);
+    font-family: lato;
+    padding: 10px;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 10px;
+
+}
+
+.child-button:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*flashcard styles here */
+.flashcard1 {
+    width: 400px;
+    height: 100px;
+    background-image: url("./flashcard/flashcard1.jpg"), linear-gradient(45deg, rgba(0, 0, 0, 0.523), rgba(213, 9, 9, 0.479));
+    background-blend-mode: overlay;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20px;
+
+    border: 2px dotter rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+
+.flashcard2 {
+    width: 400px;
+    height: 100px;
+    background-image: url("./flashcard/flashcard2.jpg"), linear-gradient(45deg, rgba(0, 0, 0, 0.523), rgba(213, 9, 9, 0.479));
+    background-blend-mode: overlay;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding-top: 20px;
+    border: 2px dotter rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px rgb(0, 0, 0);
+
+}
+
+.flashcard3 {
+    width: 400px;
+    height: 100px;
+    background-image: url("./flashcard/flashcard3.jpg"), linear-gradient(45deg, rgba(0, 0, 0, 0.523), rgba(213, 9, 9, 0.479));
+    background-blend-mode: overlay;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px dotter rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px rgb(0, 0, 0);
+
+}
+
+
+
+
+.flashcard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: px;
+    margin-top: -20px;
+    padding: 0px 20px;
+
+}
+
+.flashcard-title {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.flashcard-link {
+    color: rgb(255, 255, 2);
+    text-decoration: none;
+    font-weight: 150px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.flashcard-link:hover {
+    color: black;
+}
+
+
+
+
+
+/* approach styles starts here */
+
+.approach {
+    width: 64%;
+    height: 250px;
+
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 128px;
+    padding: 0px 170px;
+
+}
+
+.approach-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 250px;
+    text-align: center;
+
+
+
+}
+
+.approach-img {
+    padding-right: 20px;
+    padding-bottom: 24px;
+
+}
+
+.approach-text {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+
+/* hot deals styles */
+
+.hot-deals {
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+}
+
+.deal-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    width: 60%;
+
+}
+
+.hot-deal-img {
+    width: 250px;
+    height: 300px;
+    padding: 100px;
+
+}
+
+
+.deal-text {
+    padding-top: 50px;
+}
+
+.btn {
+    margin-left: 220px;
+
+
+}
+
+
+/* instagram styles starts here */
+.instagram {
+    width: 70%;
+    height: 250px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+    padding: 0px 240px;
+
+}
+
+.instagram-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+    width: 70%;
+
+}
+
+
+
+/* subscribe styles starts here */
+.subscribe {
+    width: 85%;
+    height: 420px;
+    margin-top: 400px;
+    background-image: url("./got-deals.png");
+    background-repeat: no-repeat;
+
+
+}
+
+
+.subscribe-form {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.email-box {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 650px;
+    height: 64px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    padding-left: 15px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+
+
+
+}
+
+.email {
+    margin-left: 300px;
+}
+
+.subscribe-button {
+    margin-right: 300px;
+
+}
+
+.subscribe-title {
+    padding-top: 122px;
+}
+
+
+/* footer styles start here */
+
+footer {
+
+    background-color: black;
+    padding: 128px;
+    margin-top: 128px;
+    height: 250px;
+}
+
+.footer-description {
+    color: white;
+}
+
+
+.footer-small {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 540px;
+
+}
